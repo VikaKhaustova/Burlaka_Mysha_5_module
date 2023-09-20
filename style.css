@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(29, 81, 149)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+       background-image: url(https://img.freepik.com/free-photo/beautiful-tropical-empty-beach-sea-ocean-with-white-cloud-on-blue-sky-background_74190-13665.jpg?size=626&ext=jpg&ga=GA1.2.2113615783.1694940701&semt=ais); 
+     background-size: cover;
+    background-color: #36bbce;
+    color: rgb(248, 153, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #69d5ff;
+    color: rgb(233, 53, 53);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: rgb(17, 199, 216);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.socials{
+    position: fixed;
+    right: -10px;
+    top: 230px;
+    background-color:rgb(239, 169, 4);
+    border-radius: 15px;
+    width: 110px;
+    height: 250px;
+    padding: 22px;
+    border:groove  rgb(0, 225, 255); 
+}
+   .ten
+    {position: absolute;
+    top: 23px;
+    right: 9px;
+    width: 100px;
+}
+
+ h1::before {  
+content: url(https://i.ibb.co/NTQsDRW/award-8207550-1280-1-2.png);
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1::after {
+content: url(https://i.ibb.co/NTQsDRW/award-8207550-1280-1-2.png);
+    display: inline-block;
+    margin-left: 10px;
+}
+.address::before {
+        content: url(https://i.ibb.co/pKNKZSp/image-2-4.png); 
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.tel::before {
+    content: url(https://i.ibb.co/nPT4pcQ/image-2-2.png);  
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 15px;
+}                          
+
+.button:hover {
+    background-image: url(https://img.freepik.com/free-photo/beautiful-outdoor-tropical-beach-and-sea-in-paradise-island_74190-6839.jpg?size=626&ext=jpg&ga=GA1.2.2113615783.1694940701&semt=ais); 
+     background-size: cover;
+    color: rgb(255, 179, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 50px;
+    border-radius: 10px;
+    display: block;  
+     }
+
+     .nav-link:hover {
+         color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-decoration:  none;
+    display: block;
+    border-bottom: 3px  rgb(0, 0, 0);
+    padding: 5px;
+       background-image: url(https://img.freepik.com/free-photo/summer-beach-with-starfish_64049-148.jpg?size=626&ext=jpg&ga=GA1.2.2113615783.1694940701&semt=ais); 
+     background-size: cover;
+}
+.post:hover .article-but {
+    border: 5px solid #ffa109;
+    background-color: rgb(87, 255, 255);
+    color: #f59235;
+}
